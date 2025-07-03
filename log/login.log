@@ -1,0 +1,276 @@
+2025-07-03 09:13:18,226 - INFO - LOGIN TEST STARTED
+2025-07-03 09:14:44,125 - ERROR - Element not found or timeout for bala13012004: Message: 
+
+2025-07-03 09:14:45,425 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ765CY72B9PDXJ9PSS6BHEJ&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=jMTgyLjf&amp;iia=rlE5LjM1bF&amp;iiz=lizLjE3OA**eTz&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=17a7d906-9004-46f3-8e46-b9785ab4d02b" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x00000001051d8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001051d0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104d223ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104d6f0a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x0000000104d6d614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x0000000104d6b428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x0000000104d6a824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x0000000104d5f358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x0000000104d5ede4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000104daa934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x0000000104d5d834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x000000010519bfc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x000000010519f22c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x000000010517da08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x000000010519fae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x000000010516ea98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x00000001051bf9d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x00000001051bfb64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x00000001051d09e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:14:46,731 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ765CY72B9PDXJ9PSS6BHEJ&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=jMTgyLjf&amp;iia=rlE5LjM1bF&amp;iiz=lizLjE3OA**eTz&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=17a7d906-9004-46f3-8e46-b9785ab4d02b" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x00000001051d8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001051d0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104d223ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104d6f0a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x0000000104d6d614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x0000000104d6b428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x0000000104d6a824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x0000000104d5f358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x0000000104d5ede4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000104daa934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x0000000104d5d834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x000000010519bfc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x000000010519f22c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x000000010517da08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x000000010519fae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x000000010516ea98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x00000001051bf9d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x00000001051bfb64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x00000001051d09e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:14:46,917 - ERROR - Unexpected exception for None: 'NoneType' object is not iterable
+2025-07-03 09:14:46,917 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:15:15,235 - INFO - LOGIN TEST STARTED
+2025-07-03 09:15:16,807 - ERROR - Failed to load eBay homepage: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000100df4ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000100decdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x000000010093e3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100936430 cxxbridge1$string$len + 57948
+4   chromedriver                        0x0000000100929484 cxxbridge1$string$len + 4784
+5   chromedriver                        0x000000010092ae88 cxxbridge1$string$len + 11444
+6   chromedriver                        0x00000001009298d8 cxxbridge1$string$len + 5892
+7   chromedriver                        0x000000010092922c cxxbridge1$string$len + 4184
+8   chromedriver                        0x0000000100928f78 cxxbridge1$string$len + 3492
+9   chromedriver                        0x0000000100926d30 chromedriver + 191792
+10  chromedriver                        0x000000010092778c chromedriver + 194444
+11  chromedriver                        0x0000000100941450 cxxbridge1$string$len + 103036
+12  chromedriver                        0x00000001009c73bc cxxbridge1$string$len + 651752
+13  chromedriver                        0x00000001009c6934 cxxbridge1$string$len + 649056
+14  chromedriver                        0x0000000100979834 cxxbridge1$string$len + 333408
+15  chromedriver                        0x0000000100db7fc0 cxxbridge1$str$ptr + 2473268
+16  chromedriver                        0x0000000100dbb22c cxxbridge1$str$ptr + 2486176
+17  chromedriver                        0x0000000100d99a08 cxxbridge1$str$ptr + 2348924
+18  chromedriver                        0x0000000100dbbae8 cxxbridge1$str$ptr + 2488412
+19  chromedriver                        0x0000000100d8aa98 cxxbridge1$str$ptr + 2287628
+20  chromedriver                        0x0000000100ddb9d8 cxxbridge1$str$ptr + 2619212
+21  chromedriver                        0x0000000100ddbb64 cxxbridge1$str$ptr + 2619608
+22  chromedriver                        0x0000000100dec9e8 cxxbridge1$str$ptr + 2688860
+23  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:19:38,077 - INFO - LOGIN TEST STARTED
+2025-07-03 09:20:10,165 - ERROR - Element not found or timeout for bala13012004: Message: 
+
+2025-07-03 09:20:11,406 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ76FGYM294PNNYXCTZ23DDF&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=HMTgyLjZ&amp;iia=tBE5LjM1mp&amp;iiz=pquLjE3OA**BgI&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=133f2941-fc7c-4c50-9d44-cff1c4924ff5" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000104e68ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000104e60dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001049b23ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001049ff0a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x00000001049fd614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x00000001049fb428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x00000001049fa824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x00000001049ef358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x00000001049eede4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000104a3a934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x00000001049ed834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x0000000104e2bfc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x0000000104e2f22c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x0000000104e0da08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x0000000104e2fae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x0000000104dfea98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x0000000104e4f9d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x0000000104e4fb64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x0000000104e609e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:20:12,644 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ76FGYM294PNNYXCTZ23DDF&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=HMTgyLjZ&amp;iia=tBE5LjM1mp&amp;iiz=pquLjE3OA**BgI&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=133f2941-fc7c-4c50-9d44-cff1c4924ff5" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000104e68ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000104e60dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001049b23ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001049ff0a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x00000001049fd614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x00000001049fb428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x00000001049fa824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x00000001049ef358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x00000001049eede4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000104a3a934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x00000001049ed834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x0000000104e2bfc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x0000000104e2f22c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x0000000104e0da08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x0000000104e2fae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x0000000104dfea98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x0000000104e4f9d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x0000000104e4fb64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x0000000104e609e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:20:12,777 - ERROR - Unexpected exception for None: 'NoneType' object is not iterable
+2025-07-03 09:20:12,777 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:20:51,788 - INFO - LOGIN TEST STARTED
+2025-07-03 09:21:21,764 - ERROR - Element not found or timeout for bala13012004: Message: 
+
+2025-07-03 09:21:23,011 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ76HQ1FTYPXTGEKCTWGNCFT&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=lMTgyLjd&amp;iia=ocE5LjM1UQ&amp;iiz=BWPLjE3OA**Trg&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=c6d0ff18-e243-4dd5-add6-15d2397eb606" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000104954ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x000000010494cdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x000000010449e3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001044eb0a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x00000001044e9614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x00000001044e7428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x00000001044e6824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x00000001044db358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x00000001044dade4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000104526934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x00000001044d9834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x0000000104917fc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x000000010491b22c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x00000001048f9a08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x000000010491bae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x00000001048eaa98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x000000010493b9d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x000000010493bb64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x000000010494c9e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:21:24,260 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ76HQ1FTYPXTGEKCTWGNCFT&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=lMTgyLjd&amp;iia=ocE5LjM1UQ&amp;iiz=BWPLjE3OA**Trg&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=c6d0ff18-e243-4dd5-add6-15d2397eb606" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000104954ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x000000010494cdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x000000010449e3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001044eb0a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x00000001044e9614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x00000001044e7428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x00000001044e6824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x00000001044db358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x00000001044dade4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000104526934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x00000001044d9834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x0000000104917fc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x000000010491b22c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x00000001048f9a08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x000000010491bae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x00000001048eaa98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x000000010493b9d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x000000010493bb64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x000000010494c9e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:21:24,391 - ERROR - Unexpected exception for None: 'NoneType' object is not iterable
+2025-07-03 09:21:24,391 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:21:28,710 - INFO - LOGIN TEST STARTED
+2025-07-03 09:21:52,391 - ERROR - Element not found or timeout for bala13012004: Message: 
+
+2025-07-03 09:21:53,716 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ76JN4YKM8KESZK2HZ8BE2A&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=BMTgyLjT&amp;iia=TEE5LjM1Qw&amp;iiz=UPjLjE3OA**ZKC&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=4d86089d-a1b6-4bfc-8b37-85f94ec5ffb2" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000100edcea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000100ed4dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100a263ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100a730a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x0000000100a71614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x0000000100a6f428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x0000000100a6e824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x0000000100a63358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x0000000100a62de4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000100aae934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x0000000100a61834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x0000000100e9ffc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x0000000100ea322c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x0000000100e81a08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x0000000100ea3ae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x0000000100e72a98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x0000000100ec39d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x0000000100ec3b64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x0000000100ed49e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:21:55,002 - ERROR - Unexpected exception for bala13012004@gmail.com: Message: element click intercepted: Element <button class="btn btn--fluid btn--large btn--primary" data-ebayui="" type="button" data-testid="signin-continue-btn" id="signin-continue-btn" name="signin-continue-btn" data-viewport="{&quot;trackableId&quot;:&quot;01JZ76JN4YKM8KESZK2HZ8BE2A&quot;}" data-interactions="[{&quot;eventFamily&quot;:&quot;IDENTITY&quot;,&quot;eventAction&quot;:&quot;ACTN&quot;,&quot;actionKind&quot;:&quot;CLICK&quot;,&quot;flushImmediately&quot;:false,&quot;eventProperty&quot;:{&quot;sid&quot;:&quot;p2487283.m5021.l46828&quot;},&quot;operationId&quot;:&quot;2487283&quot;}]">...</button> is not clickable at point (720, 485). Other element would receive the click: <iframe id="captchaFrame" src="/signin/captcharouter_challenge?ap=1&amp;iim=BMTgyLjT&amp;iia=TEE5LjM1Qw&amp;iiz=UPjLjE3OA**ZKC&amp;ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2Fsrv%2Fidentifer&amp;iid=4d86089d-a1b6-4bfc-8b37-85f94ec5ffb2" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;"></iframe>
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000100edcea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000100ed4dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100a263ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100a730a8 cxxbridge1$string$len + 405204
+4   chromedriver                        0x0000000100a71614 cxxbridge1$string$len + 398400
+5   chromedriver                        0x0000000100a6f428 cxxbridge1$string$len + 389716
+6   chromedriver                        0x0000000100a6e824 cxxbridge1$string$len + 386640
+7   chromedriver                        0x0000000100a63358 cxxbridge1$string$len + 340356
+8   chromedriver                        0x0000000100a62de4 cxxbridge1$string$len + 338960
+9   chromedriver                        0x0000000100aae934 cxxbridge1$string$len + 649056
+10  chromedriver                        0x0000000100a61834 cxxbridge1$string$len + 333408
+11  chromedriver                        0x0000000100e9ffc0 cxxbridge1$str$ptr + 2473268
+12  chromedriver                        0x0000000100ea322c cxxbridge1$str$ptr + 2486176
+13  chromedriver                        0x0000000100e81a08 cxxbridge1$str$ptr + 2348924
+14  chromedriver                        0x0000000100ea3ae8 cxxbridge1$str$ptr + 2488412
+15  chromedriver                        0x0000000100e72a98 cxxbridge1$str$ptr + 2287628
+16  chromedriver                        0x0000000100ec39d8 cxxbridge1$str$ptr + 2619212
+17  chromedriver                        0x0000000100ec3b64 cxxbridge1$str$ptr + 2619608
+18  chromedriver                        0x0000000100ed49e8 cxxbridge1$str$ptr + 2688860
+19  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:21:55,206 - ERROR - Unexpected exception for None: 'NoneType' object is not iterable
+2025-07-03 09:21:55,206 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:22:01,961 - INFO - LOGIN TEST STARTED
+2025-07-03 09:22:21,419 - ERROR - Account not found - bala13012004
+2025-07-03 09:22:28,262 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:22:30,472 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 09:22:35,592 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:22:41,427 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 09:22:53,936 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000103084ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x000000010307cdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000102bce3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000102c15544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000102c56934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000102c09834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000103047fc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x000000010304b22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000103029a08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x000000010304bae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x000000010301aa98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x000000010306b9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x000000010306bb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x000000010307c9e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:22:53,936 - INFO - LOGIN TEST COMPLETED

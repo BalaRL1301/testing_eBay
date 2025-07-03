@@ -1,0 +1,297 @@
+2025-07-03 09:27:06,761 - INFO - LOGIN TEST STARTED
+2025-07-03 09:27:51,259 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-07-03 09:28:06,744 - ERROR - Account not found - bala13012004
+2025-07-03 09:28:14,526 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:28:16,718 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 09:28:21,663 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:28:24,145 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 09:28:36,727 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102900ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001028f8dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x000000010244a3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000102491544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x00000001024d2934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000102485834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x00000001028c3fc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x00000001028c722c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x00000001028a5a08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x00000001028c7ae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000102896a98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x00000001028e79d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x00000001028e7b64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001028f89e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:28:36,727 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:28:36,727 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 09:52:34,279 - INFO - LOGIN TEST STARTED
+2025-07-03 09:52:45,908 - ERROR - Account not found - bala13012004
+2025-07-03 09:52:52,716 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:52:55,212 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 09:53:00,113 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:53:02,977 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 09:53:15,942 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100fa8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000100fa0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100af23ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100b39544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000100b7a934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000100b2d834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000100f6bfc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000100f6f22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000100f4da08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000100f6fae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000100f3ea98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000100f8f9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000100f8fb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000100fa09e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:53:15,942 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:53:15,943 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 09:55:27,605 - INFO - LOGIN TEST STARTED
+2025-07-03 09:55:45,511 - ERROR - Element not found or timeout for bala13012004: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001010b8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001010b0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100c023ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100c49544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000100c8a934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000100c3d834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x000000010107bfc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x000000010107f22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x000000010105da08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x000000010107fae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x000000010104ea98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x000000010109f9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x000000010109fb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001010b09e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:55:55,618 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:55:57,795 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 09:56:02,994 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:56:06,498 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 09:56:19,103 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001010b8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001010b0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100c023ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100c49544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000100c8a934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000100c3d834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x000000010107bfc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x000000010107f22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x000000010105da08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x000000010107fae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x000000010104ea98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x000000010109f9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x000000010109fb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001010b09e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:56:19,104 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:57:48,196 - INFO - LOGIN TEST STARTED
+2025-07-03 09:58:01,349 - ERROR - Account not found - bala13012004
+2025-07-03 09:58:08,140 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:58:10,385 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 09:58:15,768 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:58:18,289 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 09:58:30,842 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001006a8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001006a0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001001f23ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000100239544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x000000010027a934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x000000010022d834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x000000010066bfc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x000000010066f22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x000000010064da08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x000000010066fae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x000000010063ea98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x000000010068f9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x000000010068fb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001006a09e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:58:30,843 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:59:10,158 - INFO - LOGIN TEST STARTED
+2025-07-03 09:59:28,704 - ERROR - Account not found - bala13012004
+2025-07-03 09:59:35,299 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:59:37,478 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 09:59:42,316 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 09:59:45,016 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 09:59:57,649 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102b0cea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102b04dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001026563ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x000000010269d544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x00000001026de934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000102691834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000102acffc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000102ad322c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000102ab1a08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000102ad3ae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000102aa2a98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000102af39d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000102af3b64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000102b049e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 09:59:57,650 - INFO - LOGIN TEST COMPLETED
+2025-07-03 09:59:57,651 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 10:12:45,003 - INFO - LOGIN TEST STARTED
+2025-07-03 10:12:54,952 - ERROR - Account not found - bala13012004
+2025-07-03 10:13:01,655 - ERROR - Account not found - bala13012004@gmail.com
+2025-07-03 10:13:08,642 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 10:13:12,137 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 10:13:24,717 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104ac4ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000104abcdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x000000010460e3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104655544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000104696934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000104649834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000104a87fc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000104a8b22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000104a69a08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000104a8bae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000104a5aa98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000104aab9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000104aabb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000104abc9e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 10:13:24,717 - INFO - LOGIN TEST COMPLETED
+2025-07-03 10:13:24,717 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 10:13:32,836 - INFO -  Assertion Passed: Item 'apple' was found in the search results.
+2025-07-03 10:13:36,001 - INFO -  Assertion Passed: Item 'samsung' was found in the search results.
+2025-07-03 10:13:39,237 - INFO -  Assertion Passed: Item 'tv' was found in the search results.
+2025-07-03 10:13:42,583 - INFO -  Assertion Passed: Item 'dish washing liquid' was found in the search results.
+2025-07-03 10:13:48,134 - INFO -  Assertion Passed: Item 'watch' was found in the search results.
+2025-07-03 10:13:51,370 - INFO -  Assertion Passed: Item 'airpods' was found in the search results.
+2025-07-03 10:49:21,926 - INFO - LOGIN TEST STARTED
+2025-07-03 10:50:48,556 - INFO - LOGIN TEST STARTED
+2025-07-03 10:57:46,406 - INFO - LOGIN TEST STARTED
+2025-07-03 10:59:09,563 - INFO - LOGIN TEST STARTED
+2025-07-03 11:00:33,467 - ERROR - Account not found - bala13012004
+2025-07-03 11:00:43,679 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 11:00:45,861 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 11:00:50,855 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 11:00:53,643 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 11:01:06,224 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105464ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x000000010545cdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104fae3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104ff5544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000105036934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000104fe9834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000105427fc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x000000010542b22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000105409a08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x000000010542bae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x00000001053faa98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x000000010544b9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x000000010544bb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x000000010545c9e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 11:01:06,225 - INFO - LOGIN TEST COMPLETED
+2025-07-03 11:01:06,226 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 11:01:18,844 - INFO -  Assertion Passed: Item 'apple' was found in the search results.
+2025-07-03 11:01:21,979 - INFO -  Assertion Passed: Item 'samsung' was found in the search results.
+2025-07-03 11:01:48,131 - INFO -  Assertion Passed: Item 'tv' was found in the search results.
+2025-07-03 11:02:59,047 - INFO -  Assertion Passed: Item 'dish washing liquid' was found in the search results.
+2025-07-03 11:03:24,922 - INFO -  Assertion Passed: Item 'watch' was found in the search results.
+2025-07-03 11:03:40,329 - INFO -  Assertion Passed: Item 'airpods' was found in the search results.
+2025-07-03 11:17:04,972 - INFO - LOGIN TEST STARTED
+2025-07-03 11:17:21,321 - ERROR - Account not found - bala13012004
+2025-07-03 11:17:28,553 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 11:17:30,581 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 11:17:32,821 - ERROR - Element not interactable for bala13012004@gmail.com: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x00000001012f4ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001012ecdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100e3e260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x0000000100e7d060 cxxbridge1$string$len + 347788
+4   chromedriver                        0x0000000100e7ade4 cxxbridge1$string$len + 338960
+5   chromedriver                        0x0000000100ec6934 cxxbridge1$string$len + 649056
+6   chromedriver                        0x0000000100e79834 cxxbridge1$string$len + 333408
+7   chromedriver                        0x00000001012b7fc0 cxxbridge1$str$ptr + 2473268
+8   chromedriver                        0x00000001012bb22c cxxbridge1$str$ptr + 2486176
+9   chromedriver                        0x0000000101299a08 cxxbridge1$str$ptr + 2348924
+10  chromedriver                        0x00000001012bbae8 cxxbridge1$str$ptr + 2488412
+11  chromedriver                        0x000000010128aa98 cxxbridge1$str$ptr + 2287628
+12  chromedriver                        0x00000001012db9d8 cxxbridge1$str$ptr + 2619212
+13  chromedriver                        0x00000001012dbb64 cxxbridge1$str$ptr + 2619608
+14  chromedriver                        0x00000001012ec9e8 cxxbridge1$str$ptr + 2688860
+15  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 11:17:32,977 - ERROR - Element not interactable for None: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x00000001012f4ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001012ecdac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100e3e260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x0000000100e7d060 cxxbridge1$string$len + 347788
+4   chromedriver                        0x0000000100e7ade4 cxxbridge1$string$len + 338960
+5   chromedriver                        0x0000000100ec6934 cxxbridge1$string$len + 649056
+6   chromedriver                        0x0000000100e79834 cxxbridge1$string$len + 333408
+7   chromedriver                        0x00000001012b7fc0 cxxbridge1$str$ptr + 2473268
+8   chromedriver                        0x00000001012bb22c cxxbridge1$str$ptr + 2486176
+9   chromedriver                        0x0000000101299a08 cxxbridge1$str$ptr + 2348924
+10  chromedriver                        0x00000001012bbae8 cxxbridge1$str$ptr + 2488412
+11  chromedriver                        0x000000010128aa98 cxxbridge1$str$ptr + 2287628
+12  chromedriver                        0x00000001012db9d8 cxxbridge1$str$ptr + 2619212
+13  chromedriver                        0x00000001012dbb64 cxxbridge1$str$ptr + 2619608
+14  chromedriver                        0x00000001012ec9e8 cxxbridge1$str$ptr + 2688860
+15  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 11:17:32,978 - INFO - LOGIN TEST COMPLETED
+2025-07-03 11:17:32,978 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 11:18:20,740 - INFO - LOGIN TEST STARTED
+2025-07-03 11:18:29,244 - ERROR - Account not found - bala13012004
+2025-07-03 11:18:37,312 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 11:18:39,483 - ERROR - Incorrect password for email bala13012004@gmail.com
+2025-07-03 11:18:44,271 - INFO - Login attempted for email: bala13012004@gmail.com
+2025-07-03 11:18:46,682 - INFO - Login successful - bala13012004@gmail.com
+2025-07-03 11:18:59,216 - ERROR - Element not found or timeout for None: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104ed8ea4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000104ed0dac cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104a223ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104a69544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000104aaa934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000104a5d834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000104e9bfc0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000104e9f22c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000104e7da08 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000104e9fae8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000104e6ea98 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000104ebf9d8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000104ebfb64 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000104ed09e8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x000000019d986c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d981b80 thread_start + 8
+
+2025-07-03 11:18:59,216 - INFO - LOGIN TEST COMPLETED
+2025-07-03 11:18:59,217 - INFO - SEARCH TESTING INFORMATION
+2025-07-03 11:19:07,688 - INFO -  Assertion Passed: Item 'apple' was found in the search results.
+2025-07-03 11:19:11,277 - INFO -  Assertion Passed: Item 'samsung' was found in the search results.
