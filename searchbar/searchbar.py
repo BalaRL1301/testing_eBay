@@ -8,6 +8,9 @@ from openpyxl import load_workbook
 import time
 import logging
 import os
+#importing the category 
+from category.category import category_test
+
 
 #logging
 logging.basicConfig(
@@ -26,7 +29,7 @@ def ebay_searchbar_test(driver):
     sheet = data.active
 
     for row in sheet.iter_rows(min_row = 2, values_only = True):
-        item = row[0]
+        item = row[1]
         search_bar = driver.find_element(By.ID, 'gh-ac')
         search_bar.clear()
         search_bar.send_keys(item)
@@ -51,4 +54,6 @@ def ebay_searchbar_test(driver):
 
         driver.back()
     print("searchbar test is complelted")
-    driver.quit()
+    #remapping to the next component
+    category_test(driver)
+    #driver.quit()

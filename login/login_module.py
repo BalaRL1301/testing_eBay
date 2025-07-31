@@ -9,8 +9,10 @@ from openpyxl.utils.exceptions import InvalidFileException
 import time
 import logging
 import os
+
 #next page to rediect
 from searchbar.searchbar import ebay_searchbar_test
+
 
 # Create directories for log and screenshots
 os.makedirs("log", exist_ok=True)
@@ -120,7 +122,7 @@ def ebay_login_test(excel_file='user_Credentials.xlsx'):
         return
 
     for row in sheet.iter_rows(min_row= 2, max_row = 5, values_only=True):
-        email, password = row
+        testcase_no, email, password = row
 
         try:
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'userid')))
