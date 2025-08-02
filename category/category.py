@@ -3,6 +3,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import logging
+
+# logging
+logging.basicConfig (
+    filename = "log/category.log" ,
+    filemode = "a",
+    format = %(asctime)s - %(levelname)s - %(message)s",
+    level = logging.INFO
+)
 
 
 def category_test():
@@ -11,7 +20,7 @@ def category_test():
     wait = WebDriverWait(driver, 10)
 
     driver.get("https://www.ebay.com/")
-    print("DROPDOWN MENU (Right side) TESTING STARTED")
+    logging.info("DROPDOWN MENU (Right side) TESTING STARTED")
 
     try:
         for i in range(1, 35):
@@ -19,7 +28,7 @@ def category_test():
             dropdown = driver.find_element(By.ID, "gh-cat")
             select = Select(dropdown)
             category_name = select.options[i].text
-            print(f"Selecting category: {category_name}")
+            logging.info(f"Selecting category: {category_name}")
 
             select.select_by_index(i)
 
@@ -31,13 +40,13 @@ def category_test():
             page_title = driver.title
 
             if category_name.lower() in page_title.lower():
-                print("FOUND")
+                logging.info("FOUND")
             else:
-                print("NOT FOUND")
+                logging.info("NOT FOUND")
 
-        print("DROPDOWN MENU (Right side) TESTING COMPLETED")
+        logging.info("DROPDOWN MENU (Right side) TESTING COMPLETED")
 
     except Exception as e:
-        print("Right dropdown test failed:", str(e))
+        logging.error("Right dropdown test failed:", str(e))
 
     driver.quit()
