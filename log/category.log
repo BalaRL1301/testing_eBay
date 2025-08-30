@@ -1,0 +1,21 @@
+2025-08-02 08:54:30,909 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-08-02 08:55:04,526 - INFO - DROPDOWN MENU (Right side) TESTING STARTED
+2025-08-02 08:55:04,571 - INFO - Selecting category: Antiques
+2025-08-02 08:55:20,280 - INFO - FOUND
+2025-08-02 08:55:20,316 - INFO - Selecting category: Art
+2025-08-02 08:55:42,317 - INFO - FOUND
+2025-08-02 08:55:42,353 - INFO - Selecting category: Baby
+2025-08-02 08:55:52,964 - INFO - FOUND
+2025-08-02 08:55:52,998 - INFO - Selecting category: Books
+2025-08-02 08:55:59,247 - INFO - FOUND
+2025-08-02 08:55:59,279 - INFO - Selecting category: Business & Industrial
+2025-08-02 08:56:09,451 - INFO - FOUND
+2025-08-02 08:56:09,488 - INFO - Selecting category: Cameras & Photo
+2025-08-02 08:56:15,593 - INFO - FOUND
+2025-08-02 08:56:15,627 - INFO - Selecting category: Cell Phones & Accessories
+2025-08-02 08:56:20,453 - INFO - NOT FOUND
+2025-08-02 08:56:20,483 - INFO - Selecting category: Clothing, Shoes & Accessories
+2025-08-02 08:56:22,640 - INFO - FOUND
+2025-08-02 08:56:22,683 - INFO - Selecting category: Coins & Paper Money
+2025-08-02 08:56:24,786 - INFO - FOUND
+2025-08-02 08:56:24,807 - INFO - Selecting category: Collectibles

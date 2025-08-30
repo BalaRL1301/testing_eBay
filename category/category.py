@@ -8,18 +8,19 @@ import logging
 # logging
 logging.basicConfig (
     filename = "log/category.log" ,
-    filemode = "a",
-    format = %(asctime)s - %(levelname)s - %(message)s",
+    filemode = "w",
+    format = "%(asctime)s - %(levelname)s - %(message)s",
     level = logging.INFO
 )
 
 
-def category_test():
+def category_test(): # incl driver if searchbar is integrated to this func
     driver = webdriver.Chrome()
     driver.maximize_window()
     wait = WebDriverWait(driver, 10)
 
     driver.get("https://www.ebay.com/")
+    assert "Electronics, Cars, Fashion, Collectibles & More | eBay" in drvier.title, "It's not the default title for the eBay"
     logging.info("DROPDOWN MENU (Right side) TESTING STARTED")
 
     try:
@@ -40,9 +41,9 @@ def category_test():
             page_title = driver.title
 
             if category_name.lower() in page_title.lower():
-                logging.info("FOUND")
+                logging.info(f"{category_name} : FOUND")
             else:
-                logging.info("NOT FOUND")
+                logging.info(f"{category_name} : NOT FOUND")
 
         logging.info("DROPDOWN MENU (Right side) TESTING COMPLETED")
 
@@ -50,3 +51,4 @@ def category_test():
         logging.error("Right dropdown test failed:", str(e))
 
     driver.quit()
+

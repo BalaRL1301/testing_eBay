@@ -8,14 +8,13 @@ from openpyxl import load_workbook
 import time
 import logging
 import os
-#importing the category 
-from category.category import category_test
+from category.category import category_test #  importing the category 
 
 
-#logging
+# logging
 logging.basicConfig(
     filename = "log/searchbar.log",
-    filemode = 'a',
+    filemode = 'w',
     format = "%(asctime)s - %(levelname)s - %(message)s",
     level = logging.INFO
 )

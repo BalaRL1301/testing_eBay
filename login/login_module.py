@@ -14,14 +14,11 @@ import os
 from searchbar.searchbar import ebay_searchbar_test
 
 
-# Create directories for log and screenshots
-os.makedirs("log", exist_ok=True)
-os.makedirs("screenshots", exist_ok=True)
 
 # Configure logging to file
 logging.basicConfig(
     filename='log/login.log',
-    filemode='a',
+    filemode='w',
     format='%(asctime)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
