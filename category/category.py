@@ -20,7 +20,7 @@ def category_test(): # incl driver if searchbar is integrated to this func
     wait = WebDriverWait(driver, 10)
 
     driver.get("https://www.ebay.com/")
-    assert "Electronics, Cars, Fashion, Collectibles & More | eBay" in drvier.title, "It's not the default title for the eBay"
+    assert "Electronics, Cars, Fashion, Collectibles & More | eBay" in driver.title, "It's not the default title for the eBay"
     logging.info("DROPDOWN MENU (Right side) TESTING STARTED")
 
     try:
